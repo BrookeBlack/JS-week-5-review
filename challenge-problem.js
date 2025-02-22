@@ -1,9 +1,21 @@
 // Challenge Exercise: Build a Simple E-Commerce Checkout System
 // Write a function named `checkout` that does the following:
 // 1. Prompts the user for their name and displays a welcome message.
-// 2. Prompts the user to enter a product name and its price.
-// 3. Prompts the user to enter the quantity they want to purchase.
-// 4. Calculates the total cost and displays a summary of their purchase.
 function myCheckout() {
-  let userName = prompt ("Hello! What is your name?");
+   userName = prompt ("Hello! What is your name?");
+  let prompt() = `Hello ${userName}, hopefully your day is going well!`;
 };
+// 2. Prompts the user to enter a product name and its price.
+function myProduct() {
+   product = prompt ("What would you like today?");
+  let prompt() = `${product} is $5.99 for one unit!`;
+};
+// 3. Prompts the user to enter the quantity they want to purchase.
+function myQuanity() {
+   quanity = prompt ("How many do you need?";)
+  let prompt() = `Great choice! ${quanity} added to your cart!`;
+};
+// 4. Calculates the total cost and displays a summary of their purchase.
+function mySummary() {
+  total cost = ("")
+}
