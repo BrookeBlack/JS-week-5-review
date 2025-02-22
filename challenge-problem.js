@@ -4,3 +4,6 @@
 // 2. Prompts the user to enter a product name and its price.
 // 3. Prompts the user to enter the quantity they want to purchase.
 // 4. Calculates the total cost and displays a summary of their purchase.
+function myCheckout() {
+  let userName = prompt ("Hello! What is your name?");
+};
