@@ -17,5 +17,7 @@ function myQuanity() {
 };
 // 4. Calculates the total cost and displays a summary of their purchase.
 function mySummary() {
-  total cost = ("")
+   let total = (product * quanity * 5.99);
+   let summary = prompt ("${userName} your ${quanity} ${product} checkout total is ${total}");
+  console.log(summary);
 }
